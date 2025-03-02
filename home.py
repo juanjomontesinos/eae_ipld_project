@@ -4,7 +4,7 @@ import base64
     
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-    page_title="<Your Name> Portfolio",
+    page_title="Juanjo's Final Assignment",
     page_icon="📊",
 )
 
@@ -16,7 +16,7 @@ def home_page():
         st.header("Introduction to Programming Languages for Data")
         st.write("###")
         st.write("***Final Project - Feb 2025***")
-        st.write("**Author:** <Your Name>")
+        st.write("**Author: Juanjo")
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
@@ -40,7 +40,7 @@ def home_page():
 
 
     # ----- Personal title or short description -----
-    current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+    current_role = "Ace pilot of Team Starfox"   # TODO: Change this
 
     st.html(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""")
 
